@@ -1,107 +1,142 @@
 {
     "2023-08-27 12:00:00": {
-        "INFO": "Center and mission control systems powered down."
+        "event": "INFO",
+        "message": "Center and mission control systems powered down."
     },
     "2023-08-27 11:40:00": {
-        "INFO": "Oxygen tank explosion."
+        "event": "INFO",
+        "message": "Oxygen tank explosion."
     },
     "2023-08-27 11:35:00": {
-        "INFO": "Oxygen tank unstable."
+        "event": "INFO",
+        "message": "Oxygen tank unstable."
     },
     "2023-08-27 11:30:00": {
-        "INFO": "Mission completed successfully. Recovery team dispatched."
+        "event": "INFO",
+        "message": "Mission completed successfully. Recovery team dispatched."
     },
     "2023-08-27 11:28:00": {
-        "INFO": "Touchdown confirmed. Rocket safely landed."
+        "event": "INFO",
+        "message": "Touchdown confirmed. Rocket safely landed."
     },
     "2023-08-27 11:25:00": {
-        "INFO": "Main parachutes deployed. Rocket descent rate reducing."
+        "event": "INFO",
+        "message": "Main parachutes deployed. Rocket descent rate reducing."
     },
     "2023-08-27 11:20:00": {
-        "INFO": "Heat shield performing as expected during reentry."
+        "event": "INFO",
+        "message": "Heat shield performing as expected during reentry."
     },
     "2023-08-27 11:15:00": {
-        "INFO": "Reentry sequence started. Atmospheric drag noticeable."
+        "event": "INFO",
+        "message": "Reentry sequence started. Atmospheric drag noticeable."
     },
     "2023-08-27 11:10:00": {
-        "INFO": "Initiating deorbit maneuvers for rocket's reentry."
+        "event": "INFO",
+        "message": "Initiating deorbit maneuvers for rocket's reentry."
     },
     "2023-08-27 11:05:00": {
-        "INFO": "Satellite deployment successful. Mission objectives achieved."
+        "event": "INFO",
+        "message": "Satellite deployment successful. Mission objectives achieved."
     },
     "2023-08-27 11:00:00": {
-        "INFO": "Orbital operations initiated. Satellite deployment upcoming."
+        "event": "INFO",
+        "message": "Orbital operations initiated. Satellite deployment upcoming."
     },
     "2023-08-27 10:57:00": {
-        "INFO": "Entering planned orbit around Earth."
+        "event": "INFO",
+        "message": "Entering planned orbit around Earth."
     },
     "2023-08-27 10:55:00": {
-        "INFO": "Second stage burn nominal. Rocket velocity increasing."
+        "event": "INFO",
+        "message": "Second stage burn nominal. Rocket velocity increasing."
     },
     "2023-08-27 10:52:00": {
-        "INFO": "Navigation systems show nominal performance."
+        "event": "INFO",
+        "message": "Navigation systems show nominal performance."
     },
     "2023-08-27 10:50:00": {
-        "INFO": "Orbital insertion calculations initiated."
+        "event": "INFO",
+        "message": "Orbital insertion calculations initiated."
     },
     "2023-08-27 10:48:00": {
-        "INFO": "Payload fairing jettisoned. Satellite now exposed."
+        "event": "INFO",
+        "message": "Payload fairing jettisoned. Satellite now exposed."
     },
     "2023-08-27 10:45:00": {
-        "INFO": "Second stage ignition. Rocket continues its ascent."
+        "event": "INFO",
+        "message": "Second stage ignition. Rocket continues its ascent."
     },
     "2023-08-27 10:42:00": {
-        "INFO": "Main engine cutoff confirmed. Stage separation initiated."
+        "event": "INFO",
+        "message": "Main engine cutoff confirmed. Stage separation initiated."
     },
     "2023-08-27 10:40:00": {
-        "INFO": "First stage engines throttled down as planned."
+        "event": "INFO",
+        "message": "First stage engines throttled down as planned."
     },
     "2023-08-27 10:37:00": {
-        "INFO": "Max-Q passed. Vehicle is stable."
+        "event": "INFO",
+        "message": "Max-Q passed. Vehicle is stable."
     },
     "2023-08-27 10:35:00": {
-        "INFO": "Approaching max-Q. Aerodynamic pressure increasing."
+        "event": "INFO",
+        "message": "Approaching max-Q. Aerodynamic pressure increasing."
     },
     "2023-08-27 10:32:00": {
-        "INFO": "Initial telemetry received. Rocket is on its trajectory."
+        "event": "INFO",
+        "message": "Initial telemetry received. Rocket is on its trajectory."
     },
     "2023-08-27 10:30:00": {
-        "INFO": "Liftoff! Rocket has left the launchpad."
+        "event": "INFO",
+        "message": "Liftoff! Rocket has left the launchpad."
     },
     "2023-08-27 10:27:00": {
-        "INFO": "Engines at maximum thrust. Liftoff imminent."
+        "event": "INFO",
+        "message": "Engines at maximum thrust. Liftoff imminent."
     },
     "2023-08-27 10:25:00": {
-        "INFO": "Engine ignition sequence started."
+        "event": "INFO",
+        "message": "Engine ignition sequence started."
     },
     "2023-08-27 10:23:00": {
-        "INFO": "Countdown sequence initiated."
+        "event": "INFO",
+        "message": "Countdown sequence initiated."
     },
     "2023-08-27 10:20:00": {
-        "INFO": "Final system checks complete. Rocket is ready for launch."
+        "event": "INFO",
+        "message": "Final system checks complete. Rocket is ready for launch."
     },
     "2023-08-27 10:18:00": {
-        "INFO": "Cargo bay secured and sealed properly."
+        "event": "INFO",
+        "message": "Cargo bay secured and sealed properly."
     },
     "2023-08-27 10:15:00": {
-        "INFO": "Life support systems nominal."
+        "event": "INFO",
+        "message": "Life support systems nominal."
     },
     "2023-08-27 10:12:00": {
-        "INFO": "Propulsion check: Thrusters responding as expected."
+        "event": "INFO",
+        "message": "Propulsion check: Thrusters responding as expected."
     },
     "2023-08-27 10:10:00": {
-        "INFO": "Avionics check: All systems functional."
+        "event": "INFO",
+        "message": "Avionics check: All systems functional."
     },
     "2023-08-27 10:08:00": {
-        "INFO": "Pre-launch checklist initiated."
+        "event": "INFO",
+        "message": "Pre-launch checklist initiated."
     },
     "2023-08-27 10:05:00": {
-        "INFO": "Communication established with mission control."
+        "event": "INFO",
+        "message": "Communication established with mission control."
     },
     "2023-08-27 10:02:00": {
-        "INFO": "Power systems online. Batteries at optimal charge."
+        "event": "INFO",
+        "message": "Power systems online. Batteries at optimal charge."
     },
     "2023-08-27 10:00:00": {
-        "INFO": "Rocket initialization process started."
+        "event": "INFO",
+        "message": "Rocket initialization process started."
     }
 }

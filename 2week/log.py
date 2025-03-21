@@ -1,5 +1,3 @@
-import json  # JSON 파일 저장을 위한 라이브러리 임포트
-
 log_list = []  # 로그 데이터 저장할 리스트 생성
 
 try:  # 파일 예외처리
@@ -24,11 +22,23 @@ try:  # 파일 예외처리
     
     # 리스트를 딕셔너리화 하기 위한 구문
     # x[0](타임스탬프)키: {x[1]이벤트(key):x[2]메세지(value)}밸류 형식으로 딕셔너리화 함
-    dic = {x[0]: {x[1]: x[2]} for x in log_list}
+    dic = {x[0]: {"event":x[1],"message":x[2]} for x in log_list}
     print(dic)
 
-    file_2 = open('mission_computer_main.json', 'w')  # 'mission_computer_main.json' 파일로 만들기 위한 구문문
-    json.dump(dic, file_2, indent=4)  # dic를 JSON 형식으로 file_2에 저장 (indent는 들여쓰기를 의미)
+    file_2 = open('mission_computer_main.json', 'w')  # 'mission_computer_main.json' 파일로 만들기 위한 구문
+
+    json_dump = '{\n'
+    for key, value in dic.items():
+        json_dump += '    "' + key + '": {\n'
+        json_dump += '        "event": "' + value["event"] + '",\n'
+        json_dump += '        "message": "' + value["message"] + '"\n'
+        json_dump += '    },\n'
+    
+    # 마지막 쉼표와 개행문자 제거 후 닫는 중괄호 추가
+    json_dump = json_dump.rstrip(',\n') + '\n}'
+    
+    file_2.write(json_dump)
+
     
     # 사용한 파일들 닫아줘야함함
     file.close()
@@ -42,7 +52,7 @@ try:  # 파일 예외처리
     # dic.items()은 키,밸류를 반환하므로 key, value를 변수로 둬야함
     # 입력받은 값이 로그에 존재하는지 찾는 과정임
     for key, value in dic.items():
-        info = value['INFO']  # 각 딕셔너리의 value에서 'INFO' 키의 밸류를 가져옴
+        info = value['message']  # 각 딕셔너리의 value에서 'message' 키의 밸류를 가져옴
         # 입력값이 info에 포함되어 있는지 확인
         if search in info:
             # 포함되어 있다면 출력
