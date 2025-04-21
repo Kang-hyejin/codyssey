@@ -1,5 +1,3 @@
-# mars_mission_computer.py
-
 import random
 
 
@@ -24,7 +22,7 @@ class DummySensor:
 
     def get_env(self):
         values = self.env_values
-        log_line = (
+        log_line = ( #보너스 문제
             "LOG_ENTRY, "
             + str(values['mars_base_internal_temperature']) + "C, "
             + str(values['mars_base_external_temperature']) + "C, "
